@@ -1,14 +1,16 @@
 html {
   font-size: 16px;
+  color: #58595b;
 }
 
 li, h1, h3, h5 {
   font-family: "Josefin Sans", sans-serif;
+  line-height: 1.2;
 }
 
-p, h2, h4, h6 {
+p, h2, h4, h6, form, input, textarea, label, button {
   font-family: "Lato", sans-serif;
-  line-height: 1.2;
+  line-height: 1.4;
 }
 
 h1 {
@@ -19,13 +21,17 @@ h4 {
   font-size: 1.75rem;
 }
 
+h6 {
+  font-size: 1.5rem;
+}
+
 /* Header */
 
 header {
   position: fixed;
   z-index: 10;
   top: 0;
-  width: 100%
+  width: 100%;
 }
 
 header div {
@@ -55,6 +61,12 @@ nav a {
   font-size: 1rem;
   letter-spacing: .1rem;
 }
+
+nav a:hover {
+  color: #d0d2d3;
+}
+
+/* #6d6e70; */
 
 /* Content Offset */
 
@@ -105,4 +117,68 @@ nav a {
 
 .service h4 {
   padding: 1rem 0;
+}
+
+/* Contact */
+
+#contact {
+  padding: 4rem 4.5rem;
+  background-color: #d0d2d3;
+}
+
+#contact_form {
+  padding: 2rem 6rem;
+  width: 35rem;
+}
+
+#contact_form div {
+  padding: .5rem 0;
+}
+
+#contact_form label {
+  padding-bottom: 1rem;
+}
+
+input, textarea, button {
+  font-size: 1.25rem;
+  width: 35rem;
+  border: 0;
+  padding: .5rem;
+  margin-top: .5rem;
+  background-color: #e6e7e8;
+  border-radius: 10px;
+}
+
+button {
+  width: 46rem;
+}
+
+textarea {
+  height: 12rem;
+  width: 45rem;
+}
+
+button:hover {
+  background-color: #929497;
+}
+
+/* Contact Info */
+
+#contact_info {
+  background-color: #808184;
+  color: #fff;
+  padding: 2rem 4.5rem;
+}
+
+#contact_info h4 {
+  padding-bottom: 2rem;
+}
+
+#contact_info a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#contact_info a:hover {
+  color: #e6e7e8;
 }
