@@ -1,0 +1,108 @@
+html {
+  font-size: 16px;
+}
+
+li, h1, h3, h5 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+p, h2, h4, h6 {
+  font-family: "Lato", sans-serif;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-size: 1.75rem;
+}
+
+/* Header */
+
+header {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  width: 100%
+}
+
+header div {
+  background-color: #808184;
+  padding: 1rem 4.5rem;
+  display: flex;
+  align-items: center;
+}
+
+header div img {
+  height: 5rem;
+}
+
+nav {
+  display: inline-block;
+  padding-left: 2rem;
+}
+
+nav li {
+  padding: 0 1rem;
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: #FFF;
+  font-size: 1rem;
+  letter-spacing: .1rem;
+}
+
+/* Content Offset */
+
+#offset {
+  position: relative;
+  top: 7rem;
+}
+
+/* Slideshow */
+
+#intro {
+  background-color: #d0d2d3;
+  width: 100%;
+  height: 41rem;
+}
+
+.slideshow {
+  display: none;
+}
+
+.slides {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Services */
+
+#service {
+  padding: 4rem 4.5rem;
+}
+
+#services {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.service {
+  width: 30%;
+  padding: 1rem;
+}
+
+.service img {
+  width: 100%;
+}
+
+.service h4 {
+  padding: 1rem 0;
+}
