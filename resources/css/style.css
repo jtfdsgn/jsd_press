@@ -81,7 +81,7 @@ nav a:hover {
 
 #offset {
   position: relative;
-  top: 7rem;
+  top: 7.25rem;
 }
 
 /* Slideshow */
@@ -133,6 +133,7 @@ nav a:hover {
 #contact {
   padding: 4rem 4.5rem;
   background-color: #d0d2d3;
+  border-bottom: 2rem solid #808184;
 }
 
 #contact_form {
@@ -171,6 +172,16 @@ textarea {
 button:hover {
   background-color: #929497;
   color: #fff;
+}
+
+/* Map */
+
+#map {
+  background-image: url("../images/map_location.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
 }
 
 /* Contact Info */
