@@ -92,15 +92,19 @@ nav a:hover {
   height: 41rem;
 }
 
-.slideshow {
-  display: none;
-}
-
-.slides {
-  background-attachment: fixed;
+.slides_header {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 42rem;
+}
+
+#sh_1 {
+  background-image: url("../images/slideshow_1.jpg");
+}
+
+#sh_2 {
+  background-image: url("../images/slideshow_2.jpg");
 }
 
 /* Services */
@@ -128,12 +132,50 @@ nav a:hover {
   padding: 1rem 0;
 }
 
+/* Clients */
+
+#clients {
+  padding: 4rem 4.5rem;
+}
+
+.slides_client {
+  width: 32%;
+  height: 18rem;
+  margin: 4rem 1rem;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#sc_1 {
+  background-image: url("../images/client_1.png");
+}
+
+#sc_2 {
+  background-image: url("../images/client_2.png");
+}
+
+#sc_3 {
+  background-image: url("../images/client_3.png");
+}
+
+#sc_4 {
+  background-image: url("../images/client_4.png");
+}
+
+#sc_5 {
+  background-image: url("../images/client_5.png");
+}
+
+#sc_6 {
+  background-image: url("../images/client_6.png");
+}
+
 /* Contact */
 
 #contact {
   padding: 4rem 4.5rem;
   background-color: #d0d2d3;
-  border-bottom: 2rem solid #808184;
 }
 
 #contact_form {
@@ -156,7 +198,7 @@ input, textarea, button {
   padding: .5rem;
   margin-top: .5rem;
   background-color: #e6e7e8;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 button {
@@ -174,35 +216,41 @@ button:hover {
   color: #fff;
 }
 
-/* Map */
-
-#map {
-  background-image: url("../images/map_location.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 500px;
-}
-
 /* Contact Info */
 
 #contact_info {
   background-color: #808184;
   color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+#contact_text {
   padding: 4rem 4.5rem;
 }
 
-#contact_info h4 {
+#contact_text h4 {
   padding-bottom: 2rem;
 }
 
-#contact_info a {
+#contact_text a {
   text-decoration: none;
   color: #fff;
 }
 
-#contact_info a:hover {
+#contact_text a:hover {
   color: #47e2da;
+}
+
+#contact_map {
+  height: 400px;
+  background-image: url("../images/map_location.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 70%;
+  margin: 2rem 2rem 2rem 0;
+  border-radius: 6px;
 }
 
 /* Footer */
