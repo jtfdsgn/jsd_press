@@ -3,9 +3,6 @@
   <head>
     <title>JSD Pressworks : Apparel Printing </title>
 
-    <link rel="stylesheet" type="text/css" href="./resources/js/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="./resources/js/slick/slick-theme.css"/>
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="./resources/css/reset.css" type="text/css" rel="stylesheet">
@@ -29,7 +26,7 @@
             <li><a href="">ABOUT</a></li>
             <li><a href="#service">SERVICES</a></li>
             <li><a href="#clients">CLIENTS</a></li>
-            <li><a href="#contact">CONTACT</a></li>
+            <li><a href="#contact_info">CONTACT</a></li>
           </ul>
         </nav>
 
@@ -50,8 +47,18 @@
 
       <div id="slideshow_header">
 
-        <div id="sh_1" class="slides_header"></div>
-        <div id="sh_2" class="slides_header"></div>
+        <div id="sh_1" class="slide showing"></div>
+        <div id="sh_2" class="slide"></div>
+
+      </div>
+
+<!-- About -->
+
+      <div id="about">
+
+        <h1>ABOUT</h1>
+
+        <p>
 
       </div>
 
@@ -103,6 +110,14 @@
             </div>
           </div>
 
+          <div class="service">
+            <img src="./resources/images/service_screenprint.png">
+            <div class="service_text">
+              <h4>SCREENPRINTING</h4>
+              <p>Need a lot of shirts with a simple one-color design? Screenprinting offers an economical option for large-quantity orders, and produces a great product.</p>
+            </div>
+          </div>
+
         </div>
 
       </div>
@@ -113,22 +128,22 @@
 
         <h1>CLIENTS</h1>
 
-      </div>
+        <div id="client_logos">
 
-      <div id="slideshow_client">
+          <img src="./resources/images/client_1.png"  class="client"></img>
+          <img src="./resources/images/client_2.png" class="client"></img>
+          <img src="./resources/images/client_3.png" class="client"></img>
+          <img src="./resources/images/client_4.png" class="client"></img>
+          <img src="./resources/images/client_5.png" class="client"></img>
+          <img src="./resources/images/client_6.png" class="client"></img>
 
-        <div id="sc_1" class="slides_client"></div>
-        <div id="sc_2" class="slides_client"></div>
-        <div id="sc_3" class="slides_client"></div>
-        <div id="sc_4" class="slides_client"></div>
-        <div id="sc_5" class="slides_client"></div>
-        <div id="sc_6" class="slides_client"></div>
+        </div>
 
       </div>
 
 <!-- Contact -->
 
-      <div id="contact">
+      <!-- <div id="contact">
 
         <h1>LET'S BEGIN A CONVERSATION - <br> GET THE PRESSWORKS GEARED FOR YOUR NEXT PROJECT</h1>
 
@@ -155,7 +170,7 @@
 
         </form>
 
-      </div>
+      </div> -->
 
 <!-- Contact Info -->
 
@@ -189,9 +204,6 @@
 
 <!-- Scripts -->
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-  <script type="text/javascript" src="./resources/js/slick/slick.min.js"></script>
   <script type="text/javascript" src="./resources/js/main.js"></script>
 
   </body>

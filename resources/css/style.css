@@ -86,17 +86,32 @@ nav a:hover {
 
 /* Slideshow */
 
-#intro {
-  background-color: #d0d2d3;
-  width: 100%;
-  height: 41rem;
+#slideshow_header {
+  position: relative;
+  height: 42rem;
 }
 
-.slides_header {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+.slide {
+  position: static;
+  top: 0px;
+  left: 0px;
+  width: 100%;
   height: 42rem;
+  opacity: 0;
+  z-index: 1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+.showing {
+  opacity: 1;
+  z-index: 2;
 }
 
 #sh_1 {
@@ -105,6 +120,12 @@ nav a:hover {
 
 #sh_2 {
   background-image: url("../images/slideshow_2.jpg");
+}
+
+/* About */
+
+#about {
+  padding: 4rem 4.5rem;
 }
 
 /* Services */
@@ -117,10 +138,11 @@ nav a:hover {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .service {
-  width: 30%;
+  width: 28%;
   padding: 1rem;
 }
 
@@ -136,39 +158,19 @@ nav a:hover {
 
 #clients {
   padding: 4rem 4.5rem;
+  background-color: #d0d2d3;
 }
 
-.slides_client {
-  width: 32%;
-  height: 18rem;
-  margin: 4rem 1rem;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
+#client_logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 4rem;
 }
 
-#sc_1 {
-  background-image: url("../images/client_1.png");
-}
-
-#sc_2 {
-  background-image: url("../images/client_2.png");
-}
-
-#sc_3 {
-  background-image: url("../images/client_3.png");
-}
-
-#sc_4 {
-  background-image: url("../images/client_4.png");
-}
-
-#sc_5 {
-  background-image: url("../images/client_5.png");
-}
-
-#sc_6 {
-  background-image: url("../images/client_6.png");
+.client {
+  width: 28%;
 }
 
 /* Contact */
