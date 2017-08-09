@@ -395,6 +395,10 @@ footer span, footer a {
 
 @media only screen and (min-width: 250px) and (max-width: 520px) {
 
+  header {
+    position: inherit;
+  }
+
   h1 {
     font-size: 1.75rem;
   }
@@ -427,7 +431,8 @@ footer span, footer a {
   }
 
   #offset {
-    top: 6.5rem;
+    position: inherit;
+    top: 0;
   }
 
   #slideshow_header {
