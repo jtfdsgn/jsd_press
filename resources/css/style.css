@@ -343,10 +343,6 @@ footer span, footer a {
     justify-content: center;
   }
 
-  header div img {
-    width: 9rem;
-  }
-
   nav {
     padding-left: 0rem;
     padding-top: 1.5rem;
@@ -393,16 +389,16 @@ footer span, footer a {
   header div {
     flex-direction: column;
     justify-content: center;
-    padding: 1rem;
+    padding: .75rem;
   }
 
   header div img {
-    width: 9rem;
+    width: 5rem;
   }
 
   nav {
     padding-left: 0rem;
-    padding-top: 1rem;
+    padding-top: .75rem;
   }
 
   nav li {
@@ -410,7 +406,11 @@ footer span, footer a {
   }
 
   nav a {
-    font-size: .75rem;
+    font-size: .6rem;
+  }
+
+  #offset {
+    top: 6.5rem;
   }
 
   #slideshow_header {
