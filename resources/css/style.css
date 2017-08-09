@@ -338,6 +338,10 @@ footer span, footer a {
 
 @media only screen and (min-width: 500px) and (max-width: 700px) {
 
+  header {
+    position: inherit;
+  }
+
   header div {
     flex-direction: column;
     justify-content: center;
@@ -358,6 +362,11 @@ footer span, footer a {
 
   nav a {
     font-size: .75rem;
+  }
+
+  #offset {
+    position: inherit;
+    top: 0;
   }
 
   #slideshow_header {
