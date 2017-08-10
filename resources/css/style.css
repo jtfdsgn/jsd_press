@@ -27,6 +27,10 @@ h6 {
   font-size: 1.25rem;
 }
 
+.mobile {
+  display: none;
+}
+
 /* Header */
 
 header {
@@ -60,7 +64,6 @@ nav a {
   text-decoration: none;
   color: #FFF;
   font-size: 1rem;
-  letter-spacing: .1rem;
 }
 
 nav a:hover {
@@ -144,11 +147,15 @@ nav a:hover {
 }
 
 #transition_1 {
-  background-image: url("../images/divide_1.png");
+  background-image: url("../images/divide_1.jpg");
 }
 
 #transition_2 {
-  background-image: url("../images/divide_2.png");
+  background-image: url("../images/divide_2.jpg");
+}
+
+#transition_3 {
+  background-image: url("../images/divide_3.jpg");
 }
 
 /* About */
@@ -192,6 +199,21 @@ nav a:hover {
 
 .service h4 {
   padding: 1rem 0;
+}
+
+/* Brands */
+
+#brands {
+  padding: 4rem 4.5rem;
+  background-color: #FFF;
+}
+
+#brands_logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 4rem;
 }
 
 /* Clients */
@@ -265,7 +287,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #6EC5B4;
+  color: #FFF;
 }
 
 footer span, footer a {
@@ -316,7 +338,7 @@ footer span, footer a {
     height: 36rem;
   }
 
-  #about, #service, #clients, #contact_text {
+  #about, #service, #clients, #contact_text. #brands {
     padding: 2.5rem 3rem;
   }
 
@@ -407,6 +429,15 @@ footer span, footer a {
     font-size: 1.25rem;
   }
 
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: inherit;
+    padding-top: 2rem;
+  }
+
   header div {
     flex-direction: column;
     justify-content: center;
@@ -443,7 +474,7 @@ footer span, footer a {
     height: 34rem;
   }
 
-  #about, #service, #clients, #contact_text {
+  #about, #service, #clients, #contact_text, #brands {
     padding: 2rem 1.5rem;
   }
 
@@ -457,7 +488,7 @@ footer span, footer a {
     margin: 1rem 0;
   }
 
-  #client_logos {
+  #client_logos, #brands_logos {
     padding-top: 1.5rem;
   }
 
