@@ -139,6 +139,10 @@ nav a:hover {
   background-image: url("../images/slideshow_4.jpg");
 }
 
+#sh_5 {
+  background-image: url("../images/slideshow_5.jpg");
+}
+
 /* Img Transition */
 
 .img_transition {
