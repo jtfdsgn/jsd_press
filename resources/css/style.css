@@ -244,6 +244,10 @@ nav a:hover {
   padding: 1rem 0;
 }
 
+.client img {
+  width: 100%;
+}
+
 /* Contact Info */
 
 #contact_info {
